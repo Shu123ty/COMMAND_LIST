@@ -4,11 +4,12 @@
 #include <libgen.h>
 
 #define MAX 100
+#define DATA_DIR "/home/shubhayu18/Documents/COMMANDS/data"
 
 
 int fileops(void){
     
-    FILE *fp = fopen("data/fileops.txt", "r");
+    FILE *fp = fopen(DATA_DIR "/fileops.txt", "r");
     char BUFFER[MAX];
 
     if (fp == NULL){
@@ -26,7 +27,7 @@ int fileops(void){
 
 int netops(void){
     
-    FILE *fp = fopen ("data/netops.txt", "r");
+    FILE *fp = fopen (DATA_DIR "/netops.txt", "r");
     char BUFFER[MAX];
 
     if (fp == NULL){
@@ -44,7 +45,7 @@ int netops(void){
 
 int processops(void){
     
-    FILE *fp = fopen("data/processops.txt", "r");
+    FILE *fp = fopen(DATA_DIR "/processops.txt", "r");
     char BUFFER[MAX];
 
     if (fp == NULL){
@@ -62,7 +63,7 @@ int processops(void){
 
 int storageops(void){
     
-    FILE *fp = fopen("data/storageops.txt", "r");
+    FILE *fp = fopen(DATA_DIR "/storageops.txt", "r");
     char BUFFER[MAX];
 
     if (fp == NULL){
@@ -80,7 +81,7 @@ int storageops(void){
 
 int sysinfo(void){
     
-    FILE *fp = fopen("data/sysinfo.txt", "r");
+    FILE *fp = fopen(DATA_DIR "/sysinfo.txt", "r");
     char BUFFER[MAX];
 
     if (fp == NULL){
@@ -98,7 +99,7 @@ int sysinfo(void){
 
 int textops(void){
     
-    FILE *fp = fopen("data/textops.txt", "r");
+    FILE *fp = fopen(DATA_DIR "/textops.txt", "r");
     char BUFFER[MAX];
 
     if (fp == NULL){
