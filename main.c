@@ -3,8 +3,11 @@
 #include <string.h>
 #include <libgen.h>
 
+#ifndef DATA_DIR
+#define DATA_DIR "data"
+#endif
+
 #define MAX 100
-#define DATA_DIR "/home/shubhayu18/Documents/COMMANDS/data"
 
 
 int fileops(void){
