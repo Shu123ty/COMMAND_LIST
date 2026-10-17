@@ -4,98 +4,117 @@ A collection of Linux command reference tools written in C. Each command display
 
 ## Features
 
-- `fileops` - File and directory operations
-- `netops` - Networking commands
-- `processops` - Process management commands
-- `storageops` - Disk and storage commands
-- `sysinfo` - System information commands
-- `textops` - Text processing commands
+- **`fileops`** — File and directory operations
+- **`netops`** — Networking commands
+- **`processops`** — Process management commands
+- **`storageops`** — Disk and storage commands
+- **`sysinfo`** — System information commands
+- **`textops`** — Text processing commands
 
 The project uses C to read command reference information from text files and display it directly in the terminal.
 
-Project Structure:
-    COMMANDS/
-    ├── main.c
-    ├── Makefile
-    ├── .gitignore
-    ├── README.md
-    ├── LICENSE
-    └── data/
-        ├── fileops.txt
-        ├── netops.txt
-        ├── processops.txt
-        ├── storageops.txt
-        ├── sysinfo.txt
-        └── textops.txt
+## Project Structure
 
-Requirements
+```text
+COMMANDS/
+├── main.c
+├── Makefile
+├── .gitignore
+├── README.md
+├── LICENSE
+└── data/
+    ├── fileops.txt
+    ├── netops.txt
+    ├── processops.txt
+    ├── storageops.txt
+    ├── sysinfo.txt
+    └── textops.txt
+```
 
-    - Linux operating system
-    - GCC compiler
-    - GNU Make
-    - Git (optional, for cloning the repository)
+## Requirements
 
-Build
+- Linux operating system
+- GCC compiler
+- GNU Make
+- Git (optional, for cloning the repository)
 
-    Clone the repository:
+## Build
 
-        git clone https://github.com/Shu123ty/COMMAND_LIST.git
-        cd COMMAND_LIST
+Clone the repository:
 
-    Compile all commands:
+```bash
+git clone https://github.com/Shu123ty/COMMAND_LIST.git
+cd COMMAND_LIST
+```
 
-        make
+Compile all commands:
 
-Run
+```bash
+make
+```
 
-    Run a command from the project directory:
+## Run
 
-        ./fileops
-        ./netops
-        ./processops
-        ./storageops
-        ./sysinfo
-        ./textops
+Run a command from the project directory:
 
-    Each command displays the reference information for its respective category.
+```bash
+./fileops
+./netops
+./processops
+./storageops
+./sysinfo
+./textops
+```
 
-Install
+Each command displays the reference information for its respective category.
 
-    Install the commands for your user:
+## Install
 
-        make install
+Install the commands for your user:
 
-    If `~/.local/bin` is not already in your PATH, add it to your Bash configuration:
+```bash
+make install
+```
 
-        echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-        source ~/.bashrc
+If `~/.local/bin` is not already in your `PATH`, add it to your Bash configuration:
 
-    After installation, run the commands from any directory:
+```bash
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
 
-        fileops
-        netops
-        processops
-        storageops
-        sysinfo
-        textops
+After installation, run the commands from any directory:
 
-Uninstall
+```bash
+fileops
+netops
+processops
+storageops
+sysinfo
+textops
+```
 
-    From the project directory, run:
+## Uninstall
 
-        make uninstall
+From the project directory, run:
 
-Contributing
+```bash
+make uninstall
+```
 
-    Contributions and suggestions are welcome. You can improve existing command references, add useful Linux commands, fix errors, or propose new categories.
+## Contributing
 
-    1. Fork the repository.
-    2. Create a branch for your changes.
-    3. Make and test your changes.
-    4. Submit a pull request.
+Contributions and suggestions are welcome. You can improve existing command references, add useful Linux commands, fix errors, or propose new categories.
 
-License
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Make and test your changes.
+4. Submit a pull request.
 
-    This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
-    Made for learning, exploring, and working with Linux command-line tools.
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Made for learning, exploring, and working with Linux command-line tools.
