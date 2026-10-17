@@ -1,0 +1,14 @@
+NETWORKING & REMOTE ACCESS
+--------------------------
+
+COMMAND | PURPOSE                                              | EXAMPLE
+
+ip      | Inspect or configure network interfaces and routes   | ip address
+ping    | Test network reachability                            | ping example.com
+ss      | Show sockets and network connections                 | ss -tuln
+curl    | Transfer data to or from a URL                       | curl https://example.com
+wget    | Download files from URLs                             | wget https://example.com/file.zip
+ssh     | Connect securely to a remote computer                | ssh user@host
+scp     | Copy files securely between computers                | scp file.txt user@host:/tmp/
+rsync   | Synchronize files and directories                    | rsync -av source/ destination/
+dig     | Query DNS records                                    | dig example.com

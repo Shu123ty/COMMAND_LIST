@@ -1,0 +1,17 @@
+TEXT & DATA PROCESSING
+---------------------
+
+COMMAND | PURPOSE                               | EXAMPLE
+
+cat     | Print file contents                   | cat notes.txt
+less    | View a text file page by page         | less notes.txt
+head    | Show the first lines of a file        | head -n 10 notes.txt
+tail    | Show the last lines of a file         | tail -n 10 notes.txt
+grep    | Search text for a matching pattern    | grep "error" app.log
+sed     | Edit or transform text streams        | sed 's/old/new/g' notes.txt
+awk     | Process text by fields and patterns   | awk '{print $1}' data.txt
+sort    | Sort lines of text                    | sort names.txt
+uniq    | Filter adjacent repeated lines        | sort names.txt | uniq
+cut     | Extract selected fields or columns    | cut -d, -f1 data.csv
+wc      | Count lines, words, or bytes          | wc -l notes.txt
+diff    | Compare files line by line            | diff old.txt new.txt

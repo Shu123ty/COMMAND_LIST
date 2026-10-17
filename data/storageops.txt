@@ -1,0 +1,11 @@
+STORAGE & FILESYSTEMS
+---------------------
+
+COMMAND | PURPOSE                                                      | EXAMPLE
+
+df      | Show free and used space on filesystems                      | df -h
+du      | Estimate file and directory space usage                      | du -sh Downloads
+lsblk   | List block devices and partitions                            | lsblk
+blkid   | Display block-device attributes and filesystem identifiers   | blkid
+mount   | Attach a filesystem to a directory                           | mount
+umount  | Detach a mounted filesystem                                  | umount /mnt/drive

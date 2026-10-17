@@ -1,0 +1,14 @@
+SYSTEM INFORMATION & MONITORING
+-------------------------------
+
+COMMAND   | PURPOSE                                             | EXAMPLE
+
+uname     | Display kernel and system information               | uname -a
+hostname  | Display the system hostname                         | hostname
+uptime    | Show system uptime and load averages                | uptime
+free      | Display memory usage                                | free -h
+top       | Monitor processes and resource usage interactively  | top
+ps        | Display running processes                           | ps aux
+lscpu     | Display CPU information                             | lscpu
+lsmem     | Display memory range information                    | lsmem
+vmstat    | Report processes, memory, and system activity       | vmstat 1

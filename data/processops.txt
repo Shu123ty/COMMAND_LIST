@@ -1,0 +1,13 @@
+PROCESS & JOB CONTROL
+--------------------
+
+COMMAND | PURPOSE                                             | EXAMPLE
+
+pgrep   | Find process IDs by name or attributes              | pgrep firefox
+pkill   | Send a signal to processes selected by name         | pkill appname
+kill    | Send a signal to a process ID                       | kill PID
+jobs    | List jobs in the current shell                      | jobs
+bg      | Resume a stopped job in the background              | bg
+fg      | Bring a shell job to the foreground                 | fg
+nohup   | Run a command so it can continue after logout       | nohup command
+nice    | Run a command with a selected scheduling priority   | nice -n 10 command

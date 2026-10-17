@@ -1,0 +1,15 @@
+FILE & DIRECTORY OPERATIONS
+---------------------------
+
+COMMAND | PURPOSE                                         | EXAMPLE
+
+ls      | List files and directories                      | ls -lah
+cp      | Copy files or directories                       | cp source.txt backup.txt
+mv      | Move or rename files or directories             | mv old.txt new.txt
+rm      | Remove files or directories; use carefully      | rm file.txt
+mkdir   | Create a directory                              | mkdir projects
+rmdir   | Remove an empty directory                       | rmdir empty-folder
+touch   | Create an empty file or update its timestamp    | touch notes.txt
+find    | Search for files and directories                | find . -name "*.txt"
+pwd     | Print the current working directory             | pwd
+stat    | Show file or filesystem status information      | stat notes.txt
